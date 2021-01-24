@@ -83,6 +83,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from ...
+http://clipart-library.com/clipart/365451.htm
 
 ### Acknowledgements
 
