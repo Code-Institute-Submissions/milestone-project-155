@@ -7,14 +7,15 @@
     background: url("../images/background-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    min-height: 720px;
 }
 
 /* index page */
 
 .benefits-container {
     padding-bottom: 120px;
-    min-height: 720px;
+    /* min-height: 720px; */
     height: 100%;
     display: flex;
     justify-content: center;
@@ -22,7 +23,6 @@
 
 .benefits-column {
     padding-top: 120px;
-    /* width: 95%; */
 }
 
 .benefits-content {
@@ -34,12 +34,54 @@
     min-height: 435px;
     background-color: #fdd007;
     text-align: center;
-    /* vertical-align: auto; */
 }
 
-/* .benefits-heading {
+/* schedule page */
+
+.timetable-container {
+    padding-top: 120px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.timetable {
+    background-color: #000;
+    border: 10px solid #fdd007;
+}
+
+.timetable-column {
+    padding: 10px;
+}
+
+.timetable div {
+    padding: 0;
+}
+
+.timetable-heading {
+    text-align: center;
+    border: 1px solid #fdd007;
+    color: #fdd007;
+    margin: 0 auto;
+}
+
+.timetable-cell {
+    border: 1px solid #fdd007;
+    color: #fdd007;
+    margin: 0 auto;
+    height: 240px;
+}
+
+.timetable-heading h3 {
     padding-top: 10px;
-} */
+}
+
+.timetable-cell p {
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+    padding-top: 20px;
+    font-weight: 500;
+}
 
 /* header */
 
@@ -201,3 +243,14 @@ footer {
          padding-top: 5px;
      }
  }
+
+
+@media (max-width: 1200px) and (min-width: 768px) {
+    .timetable-heading h3 {
+        font-size: 100%;
+    }
+
+    .timetable-cell p {
+        font-size: 80%;
+    }
+}
