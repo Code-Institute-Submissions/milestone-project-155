@@ -6,7 +6,7 @@
     /* image sourced from https://unsplash.com/photos/JNAr_lyo6Jo */
     background: url("../images/background-image.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* background-size: cover; */
     min-height: 720px;
 }
@@ -40,6 +40,7 @@
 
 .timetable-container {
     padding-top: 120px;
+    padding-bottom: 120px;
     width: 80%;
     margin: 0 auto;
 }
@@ -83,6 +84,42 @@
     font-weight: 500;
 }
 
+/* gallery */
+
+/* gallery CSS copied from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+.row {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.gallery-column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.gallery-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+    .gallery-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.gallery-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 /* header */
 
 .logo {
@@ -117,7 +154,7 @@
     color: #000;
     font-family: "Exo", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     vertical-align: middle;
     margin-left: 5px;
 }

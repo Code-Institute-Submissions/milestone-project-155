@@ -79,14 +79,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The gallery grid/css was copied from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+- Benefits of spinning taken from https://spinning.eu/spinlife/the-top-10-benefits-of-spinning-class/
 
 ### Media
 - The photos used in this site were obtained from ...
 http://clipart-library.com/clipart/365451.htm
 https://unsplash.com/photos/JNAr_lyo6Jo
+shutterstock.com
 
-Benefits of spinning taken from https://spinning.eu/spinlife/the-top-10-benefits-of-spinning-class/
 
 ### Acknowledgements
 
