@@ -144,7 +144,12 @@
     padding-bottom: 20px;
 }
 
+.address-text {
+    padding-top: 20px;
+}
+
 .address-text p {
+    font-weight: 600;
     margin: 0 auto;
 }
 
@@ -348,6 +353,14 @@ footer {
     }
 
     .form-item {
+        width: 100%;
+    }
+
+    .form-submit-btn {
+        width: 100%;
+    }
+
+    .location-info {
         width: 100%;
     }
 }
