@@ -31,7 +31,7 @@ This website aims to provide information about spinning classes to customers. Th
 2. Download a printable copy of the schedule
 3. Send a message to the organiser
 
-<!-- ![Info available on home screen](assets/readme-screenshots/home-spinning-info.png)
+![Info available on home screen](assets/readme-screenshots/home-spinning-info.png)
 
 ![Types of classes available with times](assets/readme-screenshots/classes-with-times.png)
 
@@ -39,15 +39,13 @@ This website aims to provide information about spinning classes to customers. Th
 
 ![Ways to find the facility and get in touch](assets/readme-screenshots/contact-page.png)
 
-![Download the timetable](assets/readme-screenshots/footer-download-link.png) -->
+![Download the timetable](assets/readme-screenshots/footer-download-link.png)
 
 ### Wireframes
 Wireframes can be viewed [here](wireframes/ms1.pdf)
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
 - Navigation Menu - allows users to navigate to each page of the site
 - Footer - provides a downloadable schedule to users and gives links to social media sites
@@ -100,32 +98,25 @@ In this section, you should mention all of the languages, frameworks, libraries,
 3. If prompted, log in to Gitpod using your Github account
 
 ### To deploy the site
-
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+1. Log into GitHub and select the project **JoeTuohy/milestone-project-1**
+2. In the menu at the top, click on **Settings**
+3. Scroll to **GitHub Pages**, change the source to **Master Branch** and click **Save**
+4. The site is now deployed. Scroll to **GitHub Pages** again to retrieve the URL
 
 ## Credits
 - picresize.com was used for rescaling images
 
-### Content
+## Content
 - The gallery grid/css was copied from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 - Benefits of spinning taken from https://spinning.eu/spinlife/the-top-10-benefits-of-spinning-class/
 
-### Media
-- The photos used in this site were obtained from ...
+## Media
+### The photos used in this site were obtained from ...
 - http://clipart-library.com/clipart/365451.htm
 - https://unsplash.com/photos/JNAr_lyo6Jo
 - https://shutterstock.com
 
 
-### Acknowledgements
+## Acknowledgements
 
 - I received inspiration for this project from https://spinstream.co.uk/

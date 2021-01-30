@@ -111,7 +111,7 @@ h3 {
     padding: 20px;
 }
 
-/* gallery CSS copied from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+/* gallery grid CSS copied from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
 .gallery-row {
     margin: 0 auto;
     display: flex;
@@ -119,7 +119,6 @@ h3 {
     padding-left: 1%;
 }
 
-/* Create three equal columns that sits next to each other */
 .gallery-column {
     flex: 33%;
     max-width: 33%;
@@ -317,7 +316,6 @@ footer {
 
 .schedule-pdf i:hover {
     color: rgba(253, 208, 7, 0.8);
-
 }
 
 .social-links {
@@ -374,7 +372,6 @@ footer {
 
 @media screen and (max-width: 768px) {
     .gallery-column {
-        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
         flex: 100%;
         max-width: 100%;
     }
